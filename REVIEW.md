@@ -69,6 +69,10 @@
 - [ ] footer
 
 ## Misc.
+- [ ] stylesheets that are wilding out
+  * [ ] comments
+  * [ ] multiple stylesheets
+  * [ ] minify
 - [ ] relative vs. absolute paths (re: broken GH pages links)
 - [ ] hex vs. rgb
 - [ ] link
