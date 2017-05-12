@@ -69,6 +69,7 @@
 - [ ] footer
 
 ## Misc.
+- [ ] relative vs. absolute paths (re: broken GH pages links)
 - [ ] hex vs. rgb
 - [ ] link
   * [ ] hover
