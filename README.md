@@ -2,16 +2,18 @@
 
 ## Spring 2017
 
+### Websites
+
 - [@DonovonT](https://www.github.com/DonovonT): [Anime4thewin](https://donovont.github.io/Anime4thewin/)
 - [@dykeem](https://www.github.com/dykeem): [AnimeGG](https://dykeem.github.io/AnimeGG/)
 - [@JHarth](https://www.github.com/JHarth): [hyperspace](https://jharth.github.io/hyperspace/)
 - [@Rubygirl123](https://www.github.com/Rubygirl123): [RoleplayWeplay](https://rubygirl123.github.io/RoleplayWeplay/)
 - [@RegularRobo](https://www.github.com/regularrobo): [Dead of Night](https://regularrobo.github.io/dead-of-night/)
 - [@QuadirR](https://www.github.com/QuadirR): [Dr. Grey Poupon](https://quadirr.github.io/Dr.-Grey-Poupon/)
-- [@genobonilla](https://www.github.com/genobonilla): [Love](https://genobonilla.github.io/tmlsw), [Yeryergerberg](https://genobonilla.github.io/yeryergerberg-/)
-  * [Code Review](https://docs.google.com/document/d/1PW5FndI8I6Ge_1Vxud-tR5bmevqX2ob6MeFUp0aOK8U/edit?usp=sharing) by [@billimarie](https://www.github.com/billimarie)
+- [@genobonilla](https://www.github.com/genobonilla): [Love](https://genobonilla.github.io/tmlsw)
 - [@Mystic2heart](https://www.github.com/Mystic2heart): [Melancholia](https://mystic2heart.github.io/asilaj/)
-  * [Code Review](https://docs.google.com/document/d/1gk8KOot7t3LeRGzcOM8RrN2iHurNjnNObWwDQuOyiTw/edit?usp=sharing) by [@billimarie](https://www.github.com/billimarie)
+
+### Code Reviews (coming soon)
 
 ---
 
