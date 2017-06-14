@@ -1,0 +1,1166 @@
+/* Global */
+@font-face {
+    font-family: 'BebasRegular';
+    src: url('../font/bebas/BEBAS___-webfont.eot');
+    src: url('../font/bebas/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/bebas/BEBAS___-webfont.woff') format('woff'),
+         url('../font/bebas/BEBAS___-webfont.ttf') format('truetype'),
+         url('../font/bebas/BEBAS___-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* BLR Overrides */
+.row {
+  padding: 50px !important;
+}
+header {
+
+}
+header img {
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+header h2 {
+  text-align: center;
+  width: 100%;
+  color: #5b5b5b;
+  padding: 35px 0 50px 0;
+  font-family: 'BebasRegular';
+  font-weight: 900;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+.learn, .text-editors { background-color: #f0f0f0; }
+.references, .classes { background-color: #3F6682; }
+.row h3 {
+  text-align: left;
+  width: 100%;
+  padding: 20px 0;
+  font-family: 'BebasRegular';
+  font-weight: 900;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.row:nth-child(even) h3,
+.row:nth-child(even) p {
+  color: #5b5b5b;
+}
+.row:nth-child(odd) h3,
+.row:nth-child(odd) p {
+  color: #f0f0f0;
+}
+.row h4 a {
+  color: #4BADA2;
+  font-weight: 900;
+  text-decoration: underline;
+  font-size: 28px;
+}
+.row h4 a:hover {
+  text-decoration: none;
+}
+.row p {
+  font-size: 24px;
+  font-weight: 100;
+}
+.row div {
+  padding: 20px 0;
+}
+.col-wrapper {
+  text-align: center;
+  padding: 0 0 20px 0 !important;
+}
+footer {
+  background-color: #404040;
+  text-align: center;
+}
+footer p a {
+  color: #4BADA2;
+  text-decoration: underline;
+  font-weight: 900;
+}
+footer p a:hover {
+  color: #4BADA2;
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  padding: 0px;
+}
+.row {
+  width: 100%;
+  padding: 0px;
+  margin: auto 0;
+}
+
+/*
+ * Media Queries
+ */
+
+@media screen and (min-width: 1601px) and (max-width: 1920px){
+  /**Global**/
+  img{
+    max-width:100%;
+    width:auto\9;
+    height:auto;
+  }
+  h1{
+    font-weight: normal;
+    font-size: 42px;
+  }
+  h2{
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .navbar{
+    height: 90px;
+  }
+  .nav{
+    padding-left: 10px;
+    background-color: white;
+  }
+  .navbar-toggle{
+    margin-right: 25px;
+    margin-top: 12px;
+  }
+  .navbar-brand{
+    padding: 0px 0px 0px 0px;
+    width: 280px;
+  }
+  .sec-text{
+    padding: 20px 60px 20px 60px;
+    text-align: center;
+    font-size: 22px;
+  }
+  .sec-text-general-l{
+    color: white;
+    text-align: left;
+    padding: 20px 22px 20px 22px;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .sec-text-dark{
+    padding: 20px 60px 20px 60px;
+    text-align: center;
+    font-size: 22px;
+  }
+  .par-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    opacity: .95;
+  }
+  .number-large{
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0 20px 0 0;
+    float: left;
+    margin: 0px 0px 100px 10px;
+  }
+  .img-xsmall{
+    color: white;
+    padding: 2px 20px 6px 0;
+    margin: 0px 0px 0px 0px;
+    float: left;
+  }
+  #logo{
+    padding-left: 28px;
+    padding-top: 16px;
+    width: 100%;
+  }
+  /* Section 1 */
+  .main-menu-imgs{
+    width: 60%;
+  }
+  .main-img{
+    padding: 0 0 50px 0;
+  }
+  #sec-1{
+    height: 1080px;
+    padding: 180px 0 0 0;
+  }
+  #main-sec{
+    padding: 10px 0 0 0px;
+  }
+  #main-heading{
+    padding: 0px 0 0 0;
+  }
+  /* Section 2 */
+  #sec-5{
+    height: 1320px;
+  }
+
+  /* Section 3 */
+  #sec-6{
+    height: 1500px;
+  }
+
+  /* Section 4 */
+  #sec-7{
+    height: 1400px;
+  }
+
+  /* Section 5 */
+  #sec-2{
+    height: 2300px;
+  }
+  .reg-img{
+    width: 100%;
+  }
+
+  /* Section 6 */
+  #sec-3{
+    height: 1750px;
+  }
+
+  /* Section 7 */
+  #sec-4{
+      height: 820px;
+  }
+
+  /* Section 8 */
+  .form-group{
+    padding: 0px 10px 0px 10px;
+  }
+  .form-control{
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1600px){
+  /**Global**/
+  img{
+    max-width:100%;
+    width:auto\9;
+    height:auto;
+  }
+  h1{
+    font-weight: normal;
+    font-size: 42px;
+  }
+  h2{
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .navbar{
+    height: 90px;
+  }
+  .nav{
+    padding-left: 10px;
+    background-color: white;
+  }
+  .navbar-toggle{
+    margin-right: 25px;
+    margin-top: 12px;
+  }
+  .navbar-brand{
+    padding: 0px 0px 0px 0px;
+    width: 280px;
+  }
+  .sec-text{
+    padding: 20px 60px 20px 60px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .sec-text-general-l{
+    color: white;
+    text-align: left;
+    padding: 20px 22px 20px 22px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .sec-text-dark{
+    padding: 20px 60px 20px 60px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .par-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    opacity: .95;
+  }
+  .number-large{
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0 20px 0 0;
+    float: left;
+    margin: 0px 0px 100px 10px;
+  }
+  .img-xsmall{
+    color: white;
+    padding: 2px 20px 6px 0;
+    margin: 0px 0px 0px 0px;
+    float: left;
+  }
+  #logo{
+    padding-left: 28px;
+    padding-top: 16px;
+    width: 100%;
+  }
+  /* Section 1 */
+  .main-menu-imgs{
+    width: 60%;
+  }
+  .main-img{
+    padding: 0 0 50px 0;
+  }
+  #sec-1{
+    height: 900px;
+    padding: 180px 0 0 0;
+  }
+  #main-sec{
+    padding: 10px 0 0 0px;
+  }
+  #main-heading{
+    padding: 0px 0 0 0;
+  }
+  /* Section 2 */
+  #sec-5{
+    height: 1220px;
+  }
+
+  /* Section 3 */
+  #sec-6{
+    height: 1400px;
+  }
+
+  /* Section 4 */
+  #sec-7{
+    height: 1400px;
+  }
+
+  /* Section 5 */
+  #sec-2{
+    height: 2500px;
+  }
+  .reg-img{
+    width: 100%;
+  }
+
+  /* Section 6 */
+  #sec-3{
+    height: 1850px;
+  }
+
+  /* Section 8 */
+  .form-group{
+    padding: 0px 10px 0px 10px;
+  }
+  .form-control{
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1440px){
+  /**Global**/
+  img{
+    max-width:100%;
+    width:auto\9;
+    height:auto;
+  }
+  h1{
+    font-weight: normal;
+    font-size: 42px;
+  }
+  h2{
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .navbar{
+    height: 90px;
+  }
+  .nav{
+    padding-left: 10px;
+    background-color: white;
+  }
+  .navbar-toggle{
+    margin-right: 25px;
+    margin-top: 12px;
+  }
+  .navbar-brand{
+    padding: 0px 0px 0px 0px;
+    width: 280px;
+  }
+  .sec-text{
+    padding: 20px 60px 20px 60px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .sec-text-general-l{
+    color: white;
+    text-align: left;
+    padding: 20px 22px 20px 22px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .sec-text-dark{
+    padding: 20px 60px 20px 60px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .par-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    opacity: .95;
+  }
+  .number-large{
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0 20px 0 0;
+    float: left;
+    margin: 0px 0px 110px 10px;
+  }
+  .img-xsmall{
+    color: white;
+    padding: 2px 20px 6px 0;
+    margin: 0px 0px 0px 0px;
+    float: left;
+  }
+  #logo{
+    padding-left: 28px;
+    padding-top: 16px;
+    width: 100%;
+  }
+  /* Section 1 */
+  .main-menu-imgs{
+    width: 60%;
+  }
+  .main-img{
+    padding: 0 0 50px 0;
+  }
+  #sec-1{
+    height: 900px;
+    padding: 180px 0 0 0;
+  }
+  #main-sec{
+    padding: 10px 0 0 0px;
+  }
+  #main-heading{
+    padding: 0px 0 0 0;
+  }
+  /* Section 2 */
+  #sec-5{
+    height: 1220px;
+  }
+
+  /* Section 3 */
+  #sec-6{
+    height: 1400px;
+  }
+
+  /* Section 4 */
+  #sec-7{
+    height: 1400px;
+  }
+
+  /* Section 5 */
+  #sec-2{
+    height: 2500px;
+  }
+  .reg-img{
+    width: 100%;
+  }
+
+  /* Section 6 */
+  #sec-3{
+    height: 1850px;
+  }
+
+  /* Section 8 */
+  .form-group{
+    padding: 0px 10px 0px 10px;
+  }
+  .form-control{
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1366px){
+  /**Global**/
+  img{
+    max-width:100%;
+    width:auto\9;
+    height:auto;
+  }
+  h1{
+    font-weight: normal;
+    font-size: 42px;
+  }
+  h2{
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .navbar{
+    height: 90px;
+  }
+  .nav{
+    padding-left: 10px;
+    background-color: white;
+  }
+  .navbar-toggle{
+    margin-right: 25px;
+    margin-top: 12px;
+  }
+  .navbar-brand{
+    padding: 0px 0px 0px 0px;
+    width: 280px;
+  }
+  .sec-text{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .sec-text-general-l{
+    color: white;
+    text-align: left;
+    padding: 20px 14px 20px 10px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .sec-text-dark{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .par-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    opacity: .95;
+  }
+  .number-large{
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0 20px 0 0;
+    float: left;
+    margin: 0px 0px 110px 10px;
+  }
+  .img-xsmall{
+    color: white;
+    padding: 2px 20px 6px 0;
+    margin: 0px 0px 0px 0px;
+    float: left;
+  }
+  #logo{
+    padding-left: 28px;
+    padding-top: 16px;
+    width: 100%;
+  }
+  /* Section 1 */
+  .main-menu-imgs{
+    width: 60%;
+  }
+  .main-img{
+    padding: 0 0 50px 0;
+  }
+  #sec-1{
+    height: 900px;
+    padding: 180px 0 0 0;
+  }
+  #main-sec{
+    padding: 10px 0 0 0px;
+  }
+  #main-heading{
+    padding: 0px 0 0 0;
+  }
+  /* Section 2 */
+  #sec-5{
+    height: 1220px;
+  }
+
+  /* Section 3 */
+  #sec-6{
+    height: 1400px;
+  }
+
+  /* Section 4 */
+  #sec-7{
+    height: 1400px;
+  }
+
+  /* Section 5 */
+  #sec-2{
+    height: 2500px;
+  }
+  .reg-img{
+    width: 100%;
+  }
+
+  /* Section 6 */
+  #sec-3{
+    height: 1850px;
+  }
+
+  /* Section 8 */
+  .form-group{
+    padding: 0px 10px 0px 10px;
+  }
+  .form-control{
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px){
+  /**Global**/
+  img{
+    max-width:100%;
+    width:auto\9;
+    height:auto;
+  }
+  h1{
+    font-weight: normal;
+    font-size: 42px;
+  }
+  h2{
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .navbar{
+    height: 80px;
+  }
+  .nav{
+    padding-left: 10px;
+    background-color: white;
+  }
+  .navbar-toggle{
+    margin-right: 25px;
+    margin-top: 12px;
+  }
+  .navbar-brand{
+    padding: 0px 0px 0px 0px;
+    width: 280px;
+  }
+  .sec-text{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .sec-text-general-l{
+    color: white;
+    text-align: left;
+    padding: 20px 14px 20px 10px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .sec-text-dark{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .par-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    opacity: .95;
+  }
+  .number-large{
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0 20px 0 0;
+    float: left;
+    margin: 0px 0px 110px 10px;
+  }
+  .img-small{
+    color: white;
+    padding: 6px 20px 6px 0;
+    margin: 0px 0px 40px 0px;
+    float: left;
+  }
+  .img-xsmall{
+    color: white;
+    padding: 2px 20px 6px 0;
+    margin: 0px 0px 0px 0px;
+    float: left;
+  }
+  #logo{
+    padding-left: 28px;
+    padding-top: 16px;
+    width: 80%;
+  }
+  /* Section 1 */
+  .main-menu-imgs{
+    width: 60%;
+  }
+  .main-img{
+    padding: 0 0 50px 0;
+  }
+  #sec-1{
+    height: 900px;
+    padding: 180px 0 0 0;
+  }
+  #main-sec{
+    padding: 10px 0 0 0px;
+  }
+  #main-heading{
+    padding: 0px 0 0 0;
+  }
+  /* Section 2 */
+  #sec-5{
+    height: 1220px;
+  }
+
+  /* Section 3 */
+  #sec-6{
+    height: 1500px;
+  }
+
+  /* Section 4 */
+  #sec-7{
+    height: 1400px;
+  }
+
+  /* Section 5 */
+  #sec-2{
+    height: 2500px;
+  }
+  .reg-img{
+    width: 100%;
+  }
+
+  /* Section 6 */
+  #sec-3{
+    height: 1850px;
+  }
+
+  /* Section 8 */
+  .form-group{
+    padding: 0px 10px 0px 10px;
+  }
+  .form-control{
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 761px) and (max-width: 1024px){
+  /**Global**/
+  img{
+    max-width:100%;
+    width:auto\9;
+    height:auto;
+  }
+  h1{
+    font-weight: 700;
+    font-size: 26px;
+  }
+  h2{
+    font-weight: 600;
+    font-size: 26px;
+  }
+  .navbar{
+    height: 80px;
+  }
+  .navbar-toggle{
+    margin-right: 25px;
+    margin-top: 12px;
+  }
+  .navbar-brand{
+    padding: 0px 0px 0px 0px;
+    width: 280px;
+  }
+  .nav{
+    padding-left: 10px;
+    background-color: white;
+  }
+  .sec-text{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .sec-text-general-l{
+    color: white;
+    text-align: left;
+    padding: 20px 14px 20px 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .sec-text-dark{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .par-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    opacity: .95;
+  }
+  .number-large{
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0 20px 0 0;
+    float: left;
+    margin: 0px 0px 80px 10px;
+  }
+  .img-small{
+    color: white;
+    padding: 6px 20px 6px 0;
+    margin: 0px 0px 60px 0px;
+    float: left;
+  }
+  .img-xsmall{
+    color: white;
+    padding: 2px 20px 6px 0;
+    margin: 0px 0px 0px 0px;
+    float: left;
+  }
+  #logo{
+    padding-left: 28px;
+    padding-top: 16px;
+    width: 70%;
+  }
+  /* Section 1 */
+  .main-menu-imgs{
+    width: 30%;
+  }
+  .main-img{
+    padding: 0 0 50px 0;
+  }
+  #sec-1{
+    height: 1380px;
+    padding: 120px 0 0 0;
+  }
+  #main-sec{
+    padding: 10px 0 0 0px;
+  }
+  #main-heading{
+    padding: 0px 0 0 0;
+  }
+  /* Section 2 */
+  #sec-5{
+    height: 1220px;
+  }
+
+  /* Section 3 */
+  #sec-6{
+    height: 1500px;
+  }
+
+  /* Section 4 */
+  #sec-7{
+    height: 1400px;
+  }
+
+  /* Section 5 */
+  #sec-2{
+    height: 2500px;
+  }
+  .reg-img{
+    width: 100%;
+  }
+
+  /* Section 6 */
+  #sec-3{
+    height: 1850px;
+  }
+
+  /* Section 8 */
+  .form-group{
+    padding: 0px 10px 0px 10px;
+  }
+  .form-control{
+    width: 60px;
+  }
+}
+
+/* Mobile HD */
+@media screen and (min-width: 350px) and (max-width: 760px){
+  /**Global**/
+  img{
+    max-width:100%;
+    width:auto\9;
+    height:auto;
+  }
+  h1{
+    font-weight: 700;
+    font-size: 26px;
+  }
+  h2{
+    font-weight: 600;
+    font-size: 26px;
+  }
+  .navbar{
+    height: 64px;
+  }
+  .navbar-toggle{
+    margin-right: 25px;
+    margin-top: 12px;
+  }
+  .navbar-brand{
+    padding: 0px 0px 0px 0px;
+    width: 280px;
+  }
+  .nav{
+    padding-left: 10px;
+    background-color: white;
+  }
+  .main-menu-imgs{
+    width: 40%;
+  }
+  .main-img{
+    padding: 0 0 50px 0;
+  }
+  .sec-text{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .sec-text-general-l{
+    color: white;
+    text-align: left;
+    padding: 20px 14px 20px 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .sec-text-dark{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .par-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    opacity: .95;
+  }
+  .number-large{
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0 20px 0 0;
+    float: left;
+    margin: 0px 0px 120px 0px;
+  }
+  .img-small{
+    color: white;
+    padding: 6px 20px 6px 0;
+    margin: 0px 0px 85px 0px;
+    float: left;
+  }
+  .img-xsmall{
+    color: white;
+    padding: 2px 20px 6px 0;
+    margin: 0px 0px 0px 0px;
+    float: left;
+  }
+  #logo{
+    padding-left: 28px;
+    padding-top: 16px;
+    width: 60%;
+  }
+  #main-sec{
+    padding: 10px 0 0 0px;
+  }
+  #sec-1{
+    height: 1120px;
+    padding: 80px 0 0 0;
+  }
+  #main-heading{
+    padding: 0px 0 0 0;
+  }
+  /* Section 1 */
+
+
+  /* Section 2 */
+  #sec-5{
+    height: 1620px;
+  }
+
+  /* Section 3 */
+  #sec-6{
+    height: 2000px;
+  }
+
+  /* Section 4 */
+  #sec-7{
+    height: 1400px;
+  }
+
+  /* Section 5 */
+  #sec-2{
+    height: 3300px;
+  }
+  .reg-img{
+    width: 100%;
+  }
+
+  /* Section 6 */
+  #sec-3{
+    height: 2850px;
+  }
+
+  /* Section 8 */
+  .form-group{
+    padding: 0px 10px 0px 10px;
+  }
+  .form-control{
+    width: 60px;
+  }
+}
+
+/* Mobile LD */
+@media screen and (max-width: 350px){
+  /**Global**/
+  img{
+    max-width:100%;
+    width:auto\9;
+    height:auto;
+  }
+  h1{
+    font-weight: 700;
+    font-size: 22px;
+  }
+  h2{
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .navbar{
+    height: 66px;
+  }
+  .navbar-toggle{
+    margin-right: 25px;
+    margin-top: 16px;
+  }
+  .navbar-brand{
+    padding: 0px 0px 0px 0px;
+    width: 250px;
+  }
+  .nav{
+    padding-left: 10px;
+    background-color: white;
+  }
+  .main-menu-imgs{
+    width: 30%;
+  }
+  .main-img{
+    padding: 0 0 50px 0;
+  }
+  .sec-text{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .sec-text-general-l{
+    color: white;
+    text-align: left;
+    padding: 20px 14px 20px 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .sec-text-dark{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .par-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    opacity: .95;
+  }
+  .number-large{
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0 20px 0 0;
+    float: left;
+    margin: 0px 0px 150px 0px;
+  }
+  .img-small{
+    color: white;
+    padding: 6px 20px 6px 0;
+    margin: 0px 0px 105px 0px;
+    float: left;
+  }
+  .img-xsmall{
+    color: white;
+    padding: 2px 20px 6px 0;
+    margin: 0px 0px 0px 0px;
+    float: left;
+  }
+  #logo{
+    padding-left: 24px;
+    padding-top: 20px;
+    width: 60%;
+  }
+  #main-sec{
+    padding: 20px 0 0 0px;
+  }
+  #main-heading{
+    padding: 20px 0 0 0;
+  }
+
+  /* Section 1 */
+  #sec-1{
+    height: 880px;
+    padding: 70px 0 0 0;
+  }
+
+  /* Section 2 */
+  #sec-5{
+    height: 1680px;
+  }
+
+  /* Section 3 */
+  #sec-6{
+    height: 2100px;
+  }
+
+  /* Section 4 */
+  #sec-7{
+    height: 1400px;
+  }
+
+  /* Section 5 */
+  #sec-2{
+    height: 3500px;
+  }
+
+  /* Section 6 */
+  #sec-3{
+    height: 3000px;
+  }
+
+  /* Section 7 */
+  #sec-4{
+    height: 1400px;
+  }
+  /* Section 8 */
+  .form-group{
+    padding: 0px 10px 0px 10px;
+  }
+  .form-control{
+    width: 100px;
+  }
+}
+
+.sponsor {
+   margin-bottom: 30px;
+   height: 15vw;
+}
+
+.sponsor .thumbnail {
+  height: 100%;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+}
+
+.sponsor .thumbnail .img-responsive {
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 8px;
+}
