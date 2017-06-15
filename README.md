@@ -16,6 +16,19 @@
 ## [Coding Resources](https://billimarie.github.io/coding-club)
 <p align="center" style="text-align: center"><a href="https://billimarie.github.io/coding-club"><img src="https://user-images.githubusercontent.com/6895471/27149537-008ba3ca-5112-11e7-8bd6-6a9e07ecd838.PNG" width="350px" /></a></p>
 
+## Make your website searchable on Google
+
+```
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Write your description of website here.">
+  <meta name="keywords" content="Website, Name, School">
+  <meta name="author" content="Your Name Here">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+```
+
+
 ## [BLR Demo Website](https://codepen.io/billimarie/project/editor/ZOyyoV): Links, Hovers, and Buttons
 
 I created a demo website for you to look at. Check out the buttons:
