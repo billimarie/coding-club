@@ -14,7 +14,6 @@
   padding: 50px !important;
 }
 header {
-
 }
 header img {
   width: 200px;
@@ -32,8 +31,8 @@ header h2 {
   font-size: 36px;
   text-transform: uppercase;
 }
-.learn, .text-editors { background-color: #f0f0f0; }
-.references, .classes { background-color: #3F6682; }
+.websites, .references, .classes { background-color: #f0f0f0; }
+.learn, .text-editors { background-color: #3F6682; }
 .row h3 {
   text-align: left;
   width: 100%;
