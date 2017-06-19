@@ -42,6 +42,21 @@ header h2 {
   font-size: 32px;
   text-transform: uppercase;
 }
+.row h3 span.cb {
+  color: #ec5c61
+}
+.row h3 span.k {
+  color: #28a4bd;
+}
+.row h3 span.q {
+  color: #bbb;
+  font-size: 42px;
+  font-weight: 100;
+}
+.row h3 span.cb,
+.row h3 span.k {
+  vertical-align: middle;
+}
 .row:nth-child(even) h3,
 .row:nth-child(even) p {
   color: #5b5b5b;
@@ -65,6 +80,22 @@ header h2 {
 }
 .row div {
   padding: 20px 0;
+}
+.gallery {
+  max-width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  padding: 0;
+}
+.gallery a.student-link {
+  display: none;
+}
+.gallery a.student-thumb img {
+  transition: all .25s ease;
+}
+.gallery a.student-thumb img:hover {
+  transform: scale(1.1);
+  transition: all .25s ease;
 }
 .col-wrapper {
   text-align: center;
@@ -96,6 +127,22 @@ footer p a:hover {
 /*
  * Media Queries
  */
+
+ @media screen and (max-width: 442px) {
+   .gallery {
+     max-width: 200px;
+     max-height: 200px;
+   }
+ }
+
+@media screen and (min-width: 992px) {
+  .gallery {
+    max-width: 215px;
+    height: 215px;
+  }
+}
+
+/* CBK Media Queries */
 
 @media screen and (min-width: 1601px) and (max-width: 1920px){
   /**Global**/
@@ -172,9 +219,6 @@ footer p a:hover {
   /* Section 1 */
   .main-menu-imgs{
     width: 60%;
-  }
-  .main-img{
-    padding: 0 0 50px 0;
   }
   #sec-1{
     height: 1080px;
@@ -304,9 +348,6 @@ footer p a:hover {
   .main-menu-imgs{
     width: 60%;
   }
-  .main-img{
-    padding: 0 0 50px 0;
-  }
   #sec-1{
     height: 900px;
     padding: 180px 0 0 0;
@@ -430,9 +471,6 @@ footer p a:hover {
   .main-menu-imgs{
     width: 60%;
   }
-  .main-img{
-    padding: 0 0 50px 0;
-  }
   #sec-1{
     height: 900px;
     padding: 180px 0 0 0;
@@ -555,9 +593,6 @@ footer p a:hover {
   /* Section 1 */
   .main-menu-imgs{
     width: 60%;
-  }
-  .main-img{
-    padding: 0 0 50px 0;
   }
   #sec-1{
     height: 900px;
@@ -688,9 +723,6 @@ footer p a:hover {
   .main-menu-imgs{
     width: 60%;
   }
-  .main-img{
-    padding: 0 0 50px 0;
-  }
   #sec-1{
     height: 900px;
     padding: 180px 0 0 0;
@@ -820,9 +852,6 @@ footer p a:hover {
   .main-menu-imgs{
     width: 30%;
   }
-  .main-img{
-    padding: 0 0 50px 0;
-  }
   #sec-1{
     height: 1380px;
     padding: 120px 0 0 0;
@@ -903,9 +932,6 @@ footer p a:hover {
   }
   .main-menu-imgs{
     width: 40%;
-  }
-  .main-img{
-    padding: 0 0 50px 0;
   }
   .sec-text{
     padding: 20px 20px 20px 20px;
@@ -1038,9 +1064,6 @@ footer p a:hover {
   }
   .main-menu-imgs{
     width: 30%;
-  }
-  .main-img{
-    padding: 0 0 50px 0;
   }
   .sec-text{
     padding: 20px 20px 20px 20px;
