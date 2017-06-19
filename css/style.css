@@ -90,10 +90,10 @@ header h2 {
 .gallery a.student-link {
   display: none;
 }
-.gallery a.student-thumb img {
+.gallery a.student-thumb img.img-circle {
   transition: all .25s ease;
 }
-.gallery a.student-thumb img:hover {
+.gallery a.student-thumb img.img-circle:hover {
   transform: scale(1.1);
   transition: all .25s ease;
 }
