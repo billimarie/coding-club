@@ -1,6 +1,22 @@
-# Bartram HS Coding Club
+# Welcome to the Coding Club repository!
 
-## Websites
+Here you will find a variety of resources for building your website.
+
+You will also find a list of students and their websites. Feel free to add each other here on GitHub!
+
+## Table of Contents
+1. Website Gallery
+2. Coding Resources
+2A. Memorize these Git Commands
+
+## Website Gallery
+
+### KHSA Coding Club (Winter 2017)
+
+| Student | Website |
+| ------------- | ------------- |
+
+### Bartram HS Coding Club (Spring 2017)
 
 | Student | Website |
 | ------------- | ------------- |
@@ -16,7 +32,15 @@
 ## [Coding Resources](https://billimarie.github.io/coding-club)
 <p align="center" style="text-align: center"><a href="https://billimarie.github.io/coding-club"><img src="https://user-images.githubusercontent.com/6895471/27149537-008ba3ca-5112-11e7-8bd6-6a9e07ecd838.PNG" width="350px" /></a></p>
 
-## Make your website searchable on Google
+### Memorize These Git Commands
+```
+git status
+git add .
+git commit -m "[Your commit message here]"
+git push origin master
+```
+
+### Make your website searchable on Google
 
 ```
 <head>
@@ -29,7 +53,7 @@
 ```
 
 
-## [BLR Demo Website](https://codepen.io/billimarie/project/editor/ZOyyoV): Links, Hovers, and Buttons
+### [BLR Demo Website](https://codepen.io/billimarie/project/editor/ZOyyoV): Links, Hovers, and Buttons
 
 I created a demo website for you to look at. Check out the buttons:
 
@@ -37,7 +61,7 @@ I created a demo website for you to look at. Check out the buttons:
 <a href="https://codepen.io/billimarie/project/editor/ZOyyoV"><img src="https://cloud.githubusercontent.com/assets/6895471/25977463/cb8e2fdc-3689-11e7-9a29-6f8662776103.gif" width="600px" /></a>
 </p>
 
-## [How to create Image Overlays](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
+### [How to create Image Overlays](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
 
 This example shows you how to hover over an image and create a cool effect:
 
