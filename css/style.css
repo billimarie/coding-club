@@ -83,7 +83,7 @@ h3 {
   padding: 20px 0;
 }
 .websites {
-  padding-top: 0 !important;  
+  padding-top: 0 !important;
 }
 .gallery {
   max-width: 300px;
@@ -107,7 +107,12 @@ h3 {
 }
   .websites .col-wrapper {
     margin-bottom: 40px;
-    display: inline-block;
+    display: block;
+  }
+  @media (min-width: 992px) {
+    .websites .col-wrapper {
+      display: inline-block;
+    }
   }
 footer {
   background-color: #404040;
