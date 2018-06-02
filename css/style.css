@@ -13,24 +13,40 @@
 .row {
   padding: 50px !important;
 }
-header {
-}
 header img {
   width: 200px;
   text-align: center;
   margin: 0 auto;
   display: block;
 }
-header h2 {
-  text-align: center;
-  width: 100%;
-  color: #5b5b5b;
-  padding: 35px 0 50px 0;
-  font-family: 'BebasRegular';
-  font-weight: 900;
-  font-size: 36px;
-  text-transform: uppercase;
-}
+  header h2 {
+    text-align: center;
+    width: 100%;
+    color: #5b5b5b;
+    padding: 35px 0 50px 0;
+    font-family: 'BebasRegular';
+    font-weight: 900;
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  header h3 {
+    text-align: center;
+  }
+    span.cb {
+      color: #ec5c61
+    }
+    span.k {
+      color: #28a4bd;
+    }
+    span.q {
+      color: #bbb;
+      font-size: 42px;
+      font-weight: 100;
+    }
+    span.cb,
+    span.k {
+      vertical-align: middle;
+    }
 .websites, .references, .classes { background-color: #f0f0f0; }
 .learn, .text-editors { background-color: #3F6682; }
 h3 {
@@ -41,21 +57,6 @@ h3 {
   font-weight: 900;
   font-size: 32px;
   text-transform: uppercase;
-}
-header span.cb {
-  color: #ec5c61
-}
-header span.k {
-  color: #28a4bd;
-}
-header span.q {
-  color: #bbb;
-  font-size: 42px;
-  font-weight: 100;
-}
-header span.cb,
-header span.k {
-  vertical-align: middle;
 }
 .row:nth-child(even) h3,
 .row:nth-child(even) p {
