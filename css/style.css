@@ -33,7 +33,7 @@ header h2 {
 }
 .websites, .references, .classes { background-color: #f0f0f0; }
 .learn, .text-editors { background-color: #3F6682; }
-.row h3 {
+h3 {
   text-align: left;
   width: 100%;
   padding: 20px 0;
@@ -42,19 +42,19 @@ header h2 {
   font-size: 32px;
   text-transform: uppercase;
 }
-.row h3 span.cb {
+header span.cb {
   color: #ec5c61
 }
-.row h3 span.k {
+header span.k {
   color: #28a4bd;
 }
-.row h3 span.q {
+header span.q {
   color: #bbb;
   font-size: 42px;
   font-weight: 100;
 }
-.row h3 span.cb,
-.row h3 span.k {
+header span.cb,
+header span.k {
   vertical-align: middle;
 }
 .row:nth-child(even) h3,
