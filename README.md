@@ -4,30 +4,25 @@ Here you will find a variety of resources for building your website.
 
 You will also find a list of students and their websites. Feel free to add each other here on GitHub!
 
-## Table of Contents
-1. Website Gallery
-2. Coding Resources
-2A. Memorize these Git Commands
-
 ## Website Gallery
 
-### KHSA Coding Club (Winter 2017)
 
-| Student | Website |
-| ------------- | ------------- |
+#### KHSA Coding Club (Winter 2017)
 
-### Bartram HS Coding Club (Spring 2017)
-
-| Student | Website |
-| ------------- | ------------- |
-| [@DonovonT](https://www.github.com/DonovonT)  | [Anime4thewin](https://donovont.github.io/Anime4thewin/)  |
-| [@dykeem](https://www.github.com/dykeem) | [AnimeGG](https://dykeem.github.io/AnimeGG/) |
-| [@genobonilla](https://www.github.com/genobonilla) | [Love](https://genobonilla.github.io/tmlsw) |
-| [@JHarth](https://www.github.com/JHarth) | [hyperspace](https://jharth.github.io/hyperspace/) |
-| [@Mystic2heart](https://www.github.com/Mystic2heart) | [Melancholia](https://mystic2heart.github.io/asilaj/) |
-| [@QuadirR](https://www.github.com/QuadirR) | [Dr. Grey Poupon](https://quadirr.github.io/Dr.-Grey-Poupon/) |
-| [@RegularRobo](https://www.github.com/regularrobo) | [Dead of Night](https://regularrobo.github.io/dead-of-night/) |
-| [@Rubygirl123](https://www.github.com/Rubygirl123) | [RoleplayWeplay](https://rubygirl123.github.io/RoleplayWeplay/) |
+| Student | Website | School |
+| ------------- | ------------- | ------------- |
+| [sophyyy](https://github.com/sophyyy) | [Photogenics](https://sophyyy.github.io/Sophyyyyy..../) | Workshop School (Spring 2018) |
+| [sophyyy](https://github.com/dinomation74) | [ReiMagination](https://dinomation74.github.io/dinomation/) | Workshop School (Spring 2018) |
+| [sophyyy](https://github.com/raudxgeez) | [Play fortnite](https://raudxgeez.github.io/Raudxgeez/) | Workshop School (Spring 2018) |
+| [EnmanuelDR](https://github.com/EnmanuelDR) | [RpgGame](https://enmanueldr.github.io/game-rpg/) | KHSA HS (Winter 2017) |
+| [@DonovonT](https://www.github.com/DonovonT)  | [Anime4thewin](https://donovont.github.io/Anime4thewin/)  | Bartram HS (Spring 2017) |
+| [@dykeem](https://www.github.com/dykeem) | [AnimeGG](https://dykeem.github.io/AnimeGG/) | Bartram HS (Spring 2017) |
+| [@genobonilla](https://www.github.com/genobonilla) | [Love](https://genobonilla.github.io/tmlsw) | Bartram HS (Spring 2017) |
+| [@JHarth](https://www.github.com/JHarth) | [hyperspace](https://jharth.github.io/hyperspace/) | Bartram HS (Spring 2017) |
+| [@Mystic2heart](https://www.github.com/Mystic2heart) | [Melancholia](https://mystic2heart.github.io/asilaj/) | Bartram HS (Spring 2017) |
+| [@QuadirR](https://www.github.com/QuadirR) | [Dr. Grey Poupon](https://quadirr.github.io/Dr.-Grey-Poupon/) | Bartram HS (Spring 2017) |
+| [@RegularRobo](https://www.github.com/regularrobo) | [Dead of Night](https://regularrobo.github.io/dead-of-night/) | Bartram HS (Spring 2017) |
+| [@Rubygirl123](https://www.github.com/Rubygirl123) | [RoleplayWeplay](https://rubygirl123.github.io/RoleplayWeplay/) | Bartram HS (Spring 2017) |
 
 ## [Coding Resources](https://billimarie.github.io/coding-club)
 <p align="center" style="text-align: center"><a href="https://billimarie.github.io/coding-club"><img src="https://user-images.githubusercontent.com/6895471/27149537-008ba3ca-5112-11e7-8bd6-6a9e07ecd838.PNG" width="350px" /></a></p>
@@ -51,7 +46,6 @@ git push origin master
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 ```
-
 
 ### [BLR Demo Website](https://codepen.io/billimarie/project/editor/ZOyyoV): Links, Hovers, and Buttons
 
