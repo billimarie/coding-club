@@ -6,14 +6,11 @@ You will also find a list of students and their websites. Feel free to add each 
 
 ## Website Gallery
 
-
-#### KHSA Coding Club (Winter 2017)
-
 | Student | Website | School |
 | ------------- | ------------- | ------------- |
 | [sophyyy](https://github.com/sophyyy) | [Photogenics](https://sophyyy.github.io/Sophyyyyy..../) | Workshop School (Spring 2018) |
-| [sophyyy](https://github.com/dinomation74) | [ReiMagination](https://dinomation74.github.io/dinomation/) | Workshop School (Spring 2018) |
-| [sophyyy](https://github.com/raudxgeez) | [Play fortnite](https://raudxgeez.github.io/Raudxgeez/) | Workshop School (Spring 2018) |
+| [dinomation74](https://github.com/dinomation74) | [ReiMagination](https://dinomation74.github.io/dinomation/) | Workshop School (Spring 2018) |
+| [raudxgeez](https://github.com/raudxgeez) | [Play fortnite](https://raudxgeez.github.io/Raudxgeez/) | Workshop School (Spring 2018) |
 | [EnmanuelDR](https://github.com/EnmanuelDR) | [RpgGame](https://enmanueldr.github.io/game-rpg/) | KHSA HS (Winter 2017) |
 | [@DonovonT](https://www.github.com/DonovonT)  | [Anime4thewin](https://donovont.github.io/Anime4thewin/)  | Bartram HS (Spring 2017) |
 | [@dykeem](https://www.github.com/dykeem) | [AnimeGG](https://dykeem.github.io/AnimeGG/) | Bartram HS (Spring 2017) |
